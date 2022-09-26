@@ -1,0 +1,60 @@
+.cabecalho{
+    display: flex;
+    
+    background-color: #1a0a00;
+
+}
+
+
+.imagensinicial{
+    border-bottom:12px solid #a3854f;
+
+}
+
+
+.banner01{
+    width: 100%;
+    
+}
+
+.whatsimg{
+    width: 2vw;
+    height: 2vh;
+
+}
+
+
+.instaimg{
+    width: 2vw;
+    height: 2vh;
+
+}
+
+.faceimg{
+    width: 2vw;
+    height: 2vh;
+}
+
+.Felipe{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textVilla{
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+.tittleVilla{
+    padding-top: 2rem;
+    font-size: 50px;
+    color: #5b2d00;
+}
+
+
+.textosVilla{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    
+}
