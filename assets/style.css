@@ -1,6 +1,11 @@
+@font-face {
+    font-family:Muli-Black ;
+    src: url('Muli-Black');
+}
+
 .cabecalho{
     display: flex;
-    
+    justify-content: space-between;
     background-color: #1a0a00;
 
 }
@@ -10,6 +15,17 @@
     border-bottom:12px solid #a3854f;
 
 }
+
+.buttonface{
+    width: 2vw;
+    height: 2vh;
+}
+
+.buttoninsta{
+    width: 2vw;
+    height: 2vh;
+}
+
 
 
 .banner01{
@@ -42,13 +58,17 @@
 
 .textVilla{
     margin-top: 2rem;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Muli', sans-serif;
 }
 
 .tittleVilla{
     padding-top: 2rem;
-    font-size: 50px;
+    font-size: 80px;
     color: #5b2d00;
+    font-family: 'Muli', sans-serif;
+    font-weight:bolder;
+    
 }
 
 
