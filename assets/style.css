@@ -10,21 +10,16 @@
 
 }
 
+.logovilla{
+    margin-left: 6rem;
+}
 
 .imagensinicial{
-    border-bottom:12px solid #a3854f;
+    border-bottom:12px solid #d27339
 
 }
 
-.buttonface{
-    width: 2vw;
-    height: 2vh;
-}
 
-.buttoninsta{
-    width: 2vw;
-    height: 2vh;
-}
 
 
 
@@ -78,3 +73,35 @@
     margin-left: 4rem;
     
 }
+
+.Produtos{
+    display: flex;
+    background-image: url(bkg\ linguiças.png);
+    background-size: 100vw;
+    height: 86vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.tittleprodutos{
+    color: #d27339;
+    font-size: 65px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 800;
+    
+}
+
+.ling1{
+    height: 70vh;
+}
+
+.ling2{
+    height: 70vh;
+}
+
+
+.ling3{
+    height: 70vh;
+}
+
