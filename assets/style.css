@@ -18,16 +18,30 @@
     border-bottom:12px solid #d27339
 
 }
+.iniciobutton{
+    margin-right: 6rem;
+}
 
+.sobrebutton{
+    margin-right: 5rem;
+}
 
+.Produtosbutton{
+    margin-right: 4rem;
 
-
+}
+.contatobutton{
+    margin-right: 3rem;
+}
 
 .banner01{
     width: 100%;
     
 }
 
+.botoes{
+    margin-right: 3rem;
+}
 .whatsimg{
     width: 2vw;
     height: 2vh;
@@ -50,10 +64,20 @@
     display: flex;
     justify-content: flex-end;
 }
+.botoes a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    
+}
+.botoes{
+    background-color: #1a0a00;
+    border: none;
+}
 
 .textVilla{
     margin-top: 2rem;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Muli', sans-serif;
 }
 
@@ -105,3 +129,25 @@
     height: 70vh;
 }
 
+
+header a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color:#a3854f;
+
+}
+header a:after{
+    content: "";
+    position: absolute;
+    background-color: #a3854f;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+header a:hover:after{
+    width: 100%;
+}
