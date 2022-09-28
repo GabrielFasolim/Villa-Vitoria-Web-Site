@@ -7,11 +7,14 @@
     display: flex;
     justify-content: space-between;
     background-color: #1a0a00;
+    height: 9vh;
 
 }
 
 .logovilla{
     margin-left: 6rem;
+    height: 7vh;
+    padding-top: 0.5rem;
 }
 
 .imagensinicial{
@@ -19,19 +22,19 @@
 
 }
 .iniciobutton{
-    margin-right: 6rem;
+    margin-right: 3.5rem;
 }
 
 .sobrebutton{
-    margin-right: 5rem;
+    margin-right: 3rem;
 }
 
 .Produtosbutton{
-    margin-right: 4rem;
+    margin-right: 2.5rem;
 
 }
 .contatobutton{
-    margin-right: 3rem;
+    margin-right: 2rem;
 }
 
 .banner01{
@@ -86,17 +89,12 @@
     font-size: 80px;
     color: #5b2d00;
     font-family: 'Muli', sans-serif;
-    font-weight:bolder;
+    font-weight:900;
     
 }
 
 
-.textosVilla{
-    display: flex;
-    flex-direction: column;
-    margin-left: 4rem;
-    
-}
+
 
 .Produtos{
     display: flex;
@@ -150,4 +148,92 @@ header a:after{
 
 header a:hover:after{
     width: 100%;
+}
+.rastreio{
+    display: flex;
+    height: 70vh;
+    justify-content: flex-start;    
+
+
+
+}
+.inforastreio{
+    display: flex;
+    justify-content: flex-end;
+    height: 5rem;
+    flex-direction: column;
+    margin-top: 25rem;
+    
+}
+
+.imgrastreio{
+    height: 70vh;
+    margin-left: 2rem;
+    
+}
+
+.tittlerastreabilidade{
+    font-size: 100px;
+    margin-top: 15rem;
+    font-family: 'Muli-Black', sans-serif;
+    font-weight: bolder;
+    color: #d27339;
+    
+    
+
+}
+
+.textrastreio{
+    font-size: 30px;
+    margin-top: 2rem;
+    font-family: 'Muli',sans-serif;
+    text-align: right;
+    margin-right: 5rem;
+}
+
+.fornecedores{
+    background-image: url(./bkg.png);
+    
+
+}
+
+.iconesrastreio{
+    margin-left: 20rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.sustentabilidade{
+    height: 66vh;
+    padding-top: 10rem;
+    background-image: url(./sustentabilidade.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.ajustesustentabilidade{
+    margin-left: 8rem;
+}
+
+.textsustentabilidade{
+    color: white;
+    font-size: 30px;
+    margin-top: 2rem;
+    font-family: 'Muli', sans-serif;
+    font-weight:initial;
+    letter-spacing: 2px;
+}
+
+
+.tittlesustentabilidade{
+    font-size: 90px;
+    font-family: 'Muli-Black', sans-serif;
+    font-weight: 900;
+    color: rgb(25, 54, 25);
+
+}
+
+.mapa{
+    width: 99vw;
+    height: 60vh;
 }
