@@ -8,37 +8,41 @@
     justify-content: space-between;
     background-color: #1a0a00;
     height: 9vh;
+    min-width: 600px;
+    
 
 }
 
 .logovilla{
-    margin-left: 6rem;
+    padding-left: 6rem;
     height: 7vh;
     padding-top: 0.5rem;
 }
 
 .imagensinicial{
-    border-bottom:12px solid #d27339
+    border-bottom:12px solid #d27339;
+    
 
 }
 .iniciobutton{
-    margin-right: 3.5rem;
+    padding-right: 3.5rem;
 }
 
 .sobrebutton{
-    margin-right: 3rem;
+    padding-right: 3rem;
 }
 
 .Produtosbutton{
-    margin-right: 2.5rem;
+    padding-right: 2.5rem;
 
 }
 .contatobutton{
-    margin-right: 2rem;
+    padding-right: 2rem;
 }
 
 .banner01{
-    width: 100%;
+    width:100%;
+
     
 }
 
@@ -68,6 +72,8 @@
     justify-content: space-between;
     
 }
+
+
 
 
 .botoes a{
@@ -162,7 +168,8 @@ header a:hover:after{
 .rastreio{
     display: flex;
     height: 70vh;
-    justify-content: flex-start;    
+    justify-content: flex-start;   
+    align-items: center; 
 
 
 
@@ -188,7 +195,7 @@ header a:hover:after{
     font-family: 'Muli-Black', sans-serif;
     font-weight: bolder;
     color: #d27339;
-    
+    text-align: center;
     
 
 }
@@ -208,6 +215,18 @@ header a:hover:after{
 
 }
 
+.forn1{
+    height: 47vh;
+}
+
+.forn2{
+    height: 47vh ;
+
+}
+
+.forn3{
+    height: 47vh;
+}
 .iconesrastreio{
     margin-left: 20rem;
     padding-top: 5rem;
@@ -248,3 +267,27 @@ header a:hover:after{
     width: 99vw;
     height: 60vh;
 }
+
+/*RESPONSIVIDADE*/
+
+
+.container{
+   
+}
+
+
+/*SCROLL*/
+    
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #d27339;       /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #1a0a00;   /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #a3854f;  /* creates padding around scroll thumb */
+  }
