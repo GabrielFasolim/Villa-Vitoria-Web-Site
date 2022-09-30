@@ -1,10 +1,181 @@
 @media(max-width: 1200px){
-    section{
-        width: 700px;
+    .cabecalho{
+        width: 100%;
+    }
+
+    .banner01{
+        width: 100%;
+    }
+    .header .container{
+        width: 100%;
+    }
+    .fotoFelipe{
+        display: none;
+    }
+    .tittleVilla{
+        font-size: 30px;
+    }
+    .Felipe{
+        width: 100%;
+    }
+
+    .Produtos{
+        width: 100%;
+        background-size: 150vw;
+
+    }
+
+    .ling1{
+        height: 40vh;
+    }
+    .ling2{
+        height: 40vh;
+    }
+    .ling3{
+        height: 40vh;
+    }
+    .rastreio{
+        width: 100%;
+        height: 50vh;
+    }
+    .textrastreio{
+        margin-right: 2rem;
+        font-size: 18px;
+    }
+    .tittlerastreabilidade{
+        font-size: 45px;
+    }
+    .imgrastreio{
+        height: 50vh;
+
+    }
+
+    .fornecedores{
+        width: 100%;
+    }
+
+    .forn1{
+        height: 40vh;
+    }
+
+    .forn2{
+        height: 40vh;
+    }
+
+    .forn3{
+        height: 40vh;
+    }
+    .tittlesustentabilidade{
+        padding-top: 5rem;
+        font-size: 30px;
         
     }
-}
-.section{
-    width: 1200px;
+    .textsustentabilidade{
+        font-size: 15px;
+        
+    }
+    .sustentabilidade{
+        width: 100%;
+        height: 45vh;
+    
+        background-size: 100%;
+    }
+
+    .mapa{
+        width: 100%;
+        height: 52vh;
+    }
 }
 
+@media(max-width: 1024px){
+    .cabecalho{
+        width: 100%;
+    }
+    .banner01{
+        width: 100%;
+    }
+    .rastreio{
+        width: 100%;
+    }
+    .tittlerastreabilidade{
+        font-size: 20px;
+    }
+
+    .textrastreio{
+        font-size: 15px;
+    }
+    .fornecedores{
+        width: 100%;
+    }
+    .forn1{
+        height: 35vh;
+
+    }
+    .forn2{
+        height: 35vh;
+
+    }
+    .forn3{
+        height: 35vh;
+
+    }
+}
+
+
+@media(max-width: 768px){
+    .banner01{
+        width: 100%;
+    }
+
+    .Produtos{
+        background-size: 100vw;
+        height: 45vh;
+    }
+    .tittleprodutos{
+        font-size: 30px;
+    }
+    .ling1{
+        height: 30vh;
+    }
+
+    .ling2{
+        height: 30vh;
+
+    }
+    .ling3{
+        height: 30vh;
+    }
+    .sustentabilidade{
+        width:100%;
+    }
+    .tittlerastreabilidade{
+        font-size: 20px;
+    }
+    .rastreio{
+        height: 40vh;
+        
+        
+    }
+    .imgrastreio{
+        height: 30vh;
+    }
+
+    .fornecedores{
+        width: 100%;
+    }
+    .forn1{
+        height: 25vh;
+
+    }
+    .forn2{
+        height: 25vh;
+    }
+    .forn3{
+        height: 25vh;
+
+    }
+}
+
+@media(max-width: 425px){
+    
+}
