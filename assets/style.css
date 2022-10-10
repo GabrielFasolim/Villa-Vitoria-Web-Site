@@ -12,6 +12,27 @@
     
 
 }
+header a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: #a0a0a0;
+
+}
+header a:after{
+    content: "";
+    position: absolute;
+    background-color: #e0d9e7;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.4s;
+}
+
+header a:hover:after{
+    width: 60%;
+}
 
 .logovilla{
     padding-left: 6rem;
@@ -96,7 +117,7 @@
 
 .textVilla{
     margin-top: 2rem;
-    font-size: 12px;
+    font-size: 13px;
     font-family: 'Muli', sans-serif;
     letter-spacing: 2px;
 
@@ -150,27 +171,7 @@
 }
 
 
-header a{
-    position: relative;
-    text-decoration: none;
-    font-family: 'Poppins',sans-serif;
-    color:#a3854f;
 
-}
-header a:after{
-    content: "";
-    position: absolute;
-    background-color: #a3854f;
-    height: 2px;
-    width: 0;
-    left: 0;
-    bottom: -8px;
-    transition: 0.3s;
-}
-
-header a:hover:after{
-    width: 50%;
-}
 .rastreio{
     display: flex;
     height: 70vh;
