@@ -18,6 +18,9 @@
     .Felipe{
         width: 100%;
     }
+    .textVilla{
+        font-size: 15px;
+    }
 
     .Produtos{
         width: 100%;
@@ -40,7 +43,7 @@
     }
     .textrastreio{
         margin-right: 2rem;
-        font-size: 18px;
+        font-size: 12px;
     }
     .tittlerastreabilidade{
         font-size: 45px;
@@ -54,15 +57,15 @@
         width: 100%;
     }
 
-    .forn1{
+    .fornecedor01{
         height: 40vh;
     }
 
-    .forn2{
+    .fornecedor02{
         height: 40vh;
     }
 
-    .forn3{
+    .fornecedor03{
         height: 40vh;
     }
     .tittlesustentabilidade{
@@ -107,15 +110,15 @@
     .fornecedores{
         width: 100%;
     }
-    .forn1{
+    .fornecedor01{
         height: 35vh;
 
     }
-    .forn2{
+    .fornecedor02{
         height: 35vh;
 
     }
-    .forn3{
+    .fornecedor03{
         height: 35vh;
 
     }
@@ -125,6 +128,9 @@
 @media(max-width: 768px){
     .banner01{
         width: 100%;
+    }
+    .textVilla{
+        font-size: 10px;
     }
 
     .Produtos{
@@ -151,11 +157,17 @@
     .tittlerastreabilidade{
         font-size: 20px;
     }
+   
     .rastreio{
         height: 41vh;
         
         
     }
+    .textrastreio{
+        font-size: 10px;
+        margin-right: 3rem;
+    }
+
     .imgrastreio{
         height: 30vh;
     }
@@ -163,14 +175,14 @@
     .fornecedores{
         width: 100%;
     }
-    .forn1{
+    .fornecedor01{
         height: 25vh;
 
     }
-    .forn2{
+    .fornecedor02{
         height: 25vh;
     }
-    .forn3{
+    .fornecedor03{
         height: 25vh;
 
     }

@@ -62,6 +62,10 @@
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .faceimg{
     width: 2vw;
     height: 2vh;
@@ -96,7 +100,7 @@
 
 .textVilla{
     margin-top: 2rem;
-    font-size: 12px;
+    font-size: 20px;
     font-family: 'Muli', sans-serif;
     letter-spacing: 2px;
 
@@ -199,13 +203,14 @@ header a:hover:after{
     font-family: 'Muli-Black', sans-serif;
     font-weight: bolder;
     color: #d27339;
-    text-align: center;
+    text-align: right;
+    margin-right: 4rem;
     
 
 }
 
 .textrastreio{
-    font-size: 15px;
+    font-size: 20px;
     margin-right: 2%;
     margin-top: 2rem;
     font-family: 'Muli',sans-serif;
@@ -220,17 +225,17 @@ header a:hover:after{
 
 }
 
-.forn1{
-    height: 47vh;
+.fornecedor01{
+    height: 45vh;
 }
 
-.forn2{
-    height: 47vh ;
+.fornecedor02{
+    height: 45vh ;
 
 }
 
-.forn3{
-    height: 47vh;
+.fornecedor03{
+    height: 45vh;
 }
 .iconesrastreio{
     display: flex;
@@ -248,9 +253,7 @@ header a:hover:after{
     background-repeat: no-repeat;
     
 }
-.ajustesustentabilidade{
-    
-}
+
 
 .textsustentabilidade{
     color: white;
