@@ -95,6 +95,10 @@ header a:hover:after{
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 .fotoFelipe{
     width: 57%;
