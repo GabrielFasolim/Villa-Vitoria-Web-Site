@@ -1,0 +1,70 @@
+.logovilla{
+    height: 5vh;
+    margin-left: 2rem;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: #1a0a00;
+    height: 9vh;
+    width: 100%;
+    align-items: center;
+    gap: 5rem;
+    
+
+}
+.container{
+    width: 100%
+}
+
+.iniciobutton{
+    font-size: 23px;
+    margin-right: 1rem;
+ 
+}
+
+.sobrebutton{
+    font-size: 23px;
+    margin-right: 2rem;
+
+}
+
+.Produtosbutton{
+    font-size: 23px;
+    margin-right: 2rem;
+
+}
+.contatobutton{
+    font-size: 23px;
+    margin-right: 2rem;
+}
+
+.botoes{
+    background-color: #1a0a00;
+    border: none;
+    margin-left: 2rem;
+    
+}
+
+.botoes a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+.banner01{
+    width: 100%;
+
+}
+
+.textVilla{
+    font-family: 'Muli', sans-serif;
+    font-size: 30px;
+}
+
+.tittleVilla{
+    font-size: 50px;
+    color: #1a0a00;
+    font-family: 'Muli', sans-serif;
+}

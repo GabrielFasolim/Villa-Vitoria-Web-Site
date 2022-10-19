@@ -91,8 +91,6 @@ html{
 .botoes a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    
-    
 }
 .botoes{
     background-color: #1a0a00;
@@ -260,7 +258,7 @@ header a:hover:after{
 
 .sustentabilidade{
     height: 66vh;
-    background-image: url(./sustentabilidade.png);
+    background-image: url(./IMAGEMSUSTENTABILIDADED.png);
     background-size: 100%;
     background-repeat: no-repeat;
     
@@ -274,7 +272,8 @@ header a:hover:after{
     font-family: 'Muli', sans-serif;
     font-weight:initial;
     letter-spacing: 2px;
-    margin-left: 2rem;
+    margin-left: 5rem;
+    line-height: 30px;
 }
 
 
@@ -283,7 +282,10 @@ header a:hover:after{
     font-family: 'Muli-Black', sans-serif;
     font-weight: 900;
     color: rgb(25, 54, 25);
-    margin-left: 2rem;
+    margin-left: 5rem;
+    padding-top: 3rem;
+    
+    
 
 }
 
@@ -296,11 +298,18 @@ header a:hover:after{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1a0a00;
 }
 
 .logofooter{
+    margin-top: 0.5rem;
     height: 5vh;
     margin-right: 2rem;
+    margin-bottom: 0.5rem;
+    
+}
+.textfoot{
+    color: aliceblue;
 }
 
 
