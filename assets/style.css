@@ -9,49 +9,50 @@
     background-color: #1a0a00;
     height: 9vh;
     min-width: 600px;
+    align-items: center;
+    
     
 
 }
 
 .logovilla{
     padding-left: 6rem;
-    height: 7vh;
-    padding-top: 0.5rem;
-}
-
-.imagensinicial{
-    border-bottom:12px solid #d27339;
+    height: 6vh;
     
-
 }
+
+
 .iniciobutton{
+    font-size: 20px;
     padding-right: 3.5rem;
 }
 
 .sobrebutton{
+    font-size: 20px;
     padding-right: 3rem;
 }
 
 .Produtosbutton{
+    font-size: 20px;
     padding-right: 2.5rem;
 
 }
 .contatobutton{
+    font-size: 20px;
     padding-right: 2rem;
 }
 
 .banner01{
     width:100%;
-
-    
+    border-bottom:12px solid #d27339;
 }
 
 .botoes{
     margin-right: 3rem;
 }
 .whatsimg{
-    width: 2vw;
-    height: 2vh;
+    
+    height: 1vh;
 
 }
 
@@ -75,6 +76,7 @@ html{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
     
 }
 
@@ -102,16 +104,19 @@ html{
     margin-top: 2rem;
     font-size: 20px;
     font-family: 'Muli', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-left: 5rem;
 
 }
 
 .tittleVilla{
-    padding-top: 2rem;
+  
     font-size: 60px;
     color: #5b2d00;
     font-family: 'Muli', sans-serif;
     font-weight:900;
+    margin-left: 5rem;
     
 }
 
@@ -137,20 +142,25 @@ html{
     font-size: 65px;
     font-family: 'Muli', sans-serif;
     font-weight: 800;
+    margin-bottom: 2.5rem;
     
 }
 
 .ling1{
-    height: 70vh;
+    height: 60vh;
 }
 
 .ling2{
-    height: 70vh;
+    height: 60vh;
 }
 
 
 .ling3{
-    height: 70vh;
+    height: 60vh;
+}
+
+.ling4{
+    height: 60vh;
 }
 
 
@@ -186,8 +196,9 @@ header a:hover:after{
 }
 .inforastreio{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
+    
     
     
 }
@@ -204,7 +215,8 @@ header a:hover:after{
     font-weight: bolder;
     color: #d27339;
     text-align: right;
-    margin-right: 4rem;
+    margin-right: 6rem;
+    
     
 
 }
@@ -216,7 +228,7 @@ header a:hover:after{
     font-family: 'Muli',sans-serif;
     text-align: right;
     letter-spacing: 2px;
-    margin-right: 4rem;
+    margin-right: 6rem;
 }
 
 .fornecedores{
@@ -280,7 +292,16 @@ header a:hover:after{
     height: 60vh;
 }
 
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.logofooter{
+    height: 5vh;
+    margin-right: 2rem;
+}
 
 
 /*SCROLL*/
@@ -298,3 +319,5 @@ body::-webkit-scrollbar {
     border-radius: 20px;       /* roundness of the scroll thumb */
     border: 1px solid #a3854f;  /* creates padding around scroll thumb */
   }
+
+
