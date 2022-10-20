@@ -2,9 +2,7 @@
     font-family:Muli-Black ;
     src: url('Muli-Black');
 }
-.banner1080{
-    display: none;
-}
+
 
 .cabecalho{
     display: flex;
@@ -14,9 +12,24 @@
     min-width: 600px;
     align-items: center;
     width: 100%;
-    
-    
+}
 
+.banner1080{
+    display: none;
+}
+
+.Buttonface{
+    margin-right: 1rem;
+}
+
+.Buttoninsta{
+    margin-right: 1rem;
+}
+.head{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border: none;
 }
 .botoes a{
     text-decoration: none;
@@ -39,7 +52,7 @@ header a{
 header a:after{
     content: "";
     position: absolute;
-    background-color: #e0d9e7;
+    background-color: #8f522c;
     height: 1px;
     width: 0;
     left: 0;
@@ -114,9 +127,7 @@ html{
     
 }
 
-html{
-    scroll-behavior: smooth;
-}
+
 
 
 .fotoFelipe{
@@ -213,7 +224,7 @@ html{
 
 .imgrastreio{
     height: 70vh;
-    margin-left: 2rem;
+    margin-right: 2rem;
     
 }
 
@@ -282,24 +293,24 @@ html{
 
 .textsustentabilidade{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 2rem;
     font-family: 'Muli', sans-serif;
     font-weight:initial;
     letter-spacing: 2px;
     margin-left: 5rem;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 
 .tittlesustentabilidade{
-    font-size: 80px;
+    font-size: 100px;
     font-family: 'Muli-Black', sans-serif;
     font-weight: 900;
     color: rgb(25, 54, 25);
     margin-left: 5rem;
     padding-top: 3rem;
-    
+    letter-spacing: 4px;
     
 
 }

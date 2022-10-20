@@ -1,8 +1,17 @@
+@media(max-width: 1920px){
+    .banner1080{
+        display: none;
+    }
+}
+
+
 @media(max-width: 1200px){
     .cabecalho{
         width: 100%;
     }
-
+    .banner1080{
+        display: NONE;
+    }
     .banner01{
         width: 100%;
     }
@@ -133,9 +142,7 @@
 
 
 @media(max-width: 768px){
-    .banner1080{
-        display: none;
-    }
+    
     .banner01{
         width: 100%;
     }
@@ -200,7 +207,7 @@
 
 
 
-
+/*
 @media(max-width: 1080px){
     .logovilla{
         height: 4vh;
@@ -332,5 +339,127 @@
     .textsustentabilidade{
         font-size: 19px;
     }
-    
+    .banner01{
+        height: 50vh;
+    }
 }
+*/
+
+@media(max-width: 375px){
+    
+   .cabecalho{
+    width: 10vh;
+    height: 10vh;
+    justify-content: flex-start;
+    min-width: 375px
+   }
+
+   .logovilla{
+    height: 5vh;
+    padding-left: 1rem
+   }
+
+   .iniciobutton{
+    font-size: 10px;
+    margin-right: 1rem;
+    padding-right: 0;
+    margin-left: 0.3rem;
+
+    }
+    .sobrebutton{
+        font-size: 10px;
+        padding-right: 0;
+        margin-right: 1rem;
+    }    
+    
+    .Produtosbutton{
+        font-size: 10px;
+        padding-right: 0;
+        margin-right: 1rem;
+    
+    }
+    .contatobutton{
+        font-size: 10px;
+        padding-right: 0rem;
+        margin-right: 1rem;
+    }
+    .icones{
+        display: flex;
+    
+    }
+    
+    
+    .Buttonface{
+        height: 0.7vh;
+    }
+    .Buttoninsta{
+        height: 1vh;
+    }
+    .buttoninsta{
+        height: 2vh;
+    }
+    .buttonface{
+        height: 2vh;
+    }
+    .buttonwhats{
+        height: 2vh;
+    }
+    .textrastreio{
+        margin-left: 6rem;
+    }
+
+    
+    .banner01{
+        height: 27vh;
+    }
+    /*.textosVilla{
+        
+    }
+    */
+    .textVilla{
+        margin-left: 0;
+        line-height: 15px;
+        margin-right: 3rem;
+    }
+    .tittleVilla{
+        margin-left: 0;
+    }
+
+    .Produtos{
+    display: none;
+    }
+
+    
+    
+    .rastreio{
+        display: none;
+        width: 100%;
+        height: 50vh;
+    }
+    .textrastreio{
+        margin-right: 2rem;
+        font-size: 12px;
+    }
+    .tittlerastreabilidade{
+        font-size: 45px;
+    }
+    .fornecedores{
+        display: none;
+    }
+    
+    .sustentabilidade{
+        display: none;
+    }
+    .mapbox{
+        display: none;
+    }
+
+    .foot{
+        display: none;
+    }
+
+}
+
+
+
+       
