@@ -1,11 +1,27 @@
-@media(max-width: 1920px){
-    .banner1080{
-        display: none;
+@media(max-width: 768px){
+    .banner{
+        background-image: url(./banner1080.png);
+        height: 300px;
+    }
+    .nav-item {
+        font-size: 12px;
+        margin-right: 2rem;
+    }
+    .icones img {
+        width: 20px;
     }
 }
 
-
 @media(max-width: 1200px){
+    .Buttonface {
+        margin-right: 0px;
+    }
+    .Buttoninsta {
+        margin-right: 0px;
+    }
+    .Buttonwhats {
+        margin-right: 0px;
+    }
     .cabecalho{
         width: 100%;
     }
@@ -106,6 +122,9 @@
 }
 
 @media(max-width: 1024px){
+    .botoes {
+        margin-right: 0px;
+    }
     .cabecalho{
         width: 100%;
     }
@@ -177,8 +196,7 @@
    
     .rastreio{
         height: 41vh;
-        
-        
+              
     }
     .textrastreio{
         font-size: 10px;
@@ -345,18 +363,33 @@
 }
 */
 
-@media(max-width: 375px){
+@media(max-width: 400px){
     
    .cabecalho{
     width: 10vh;
-    height: 10vh;
+    height: auto;
     justify-content: flex-start;
-    min-width: 375px
+    min-width: 100%;
+    flex-direction: column;
+   }
+
+   .ButtonImg img {
+    height: auto;
+    margin: 10px 5px 20px 5px;
+   }
+
+   .head{
+    flex-direction: column;
    }
 
    .logovilla{
-    height: 5vh;
-    padding-left: 1rem
+    margin-top: 20px;
+    padding-left: 0;
+    margin-right: 0;
+   }
+
+   .nav-item {
+    margin-right: 0;
    }
 
    .iniciobutton{
