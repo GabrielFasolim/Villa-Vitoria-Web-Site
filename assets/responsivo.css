@@ -25,18 +25,24 @@
     .Produtos{
         width: 100%;
         background-size: 150vw;
+        background-size: cover;
+        background-repeat: no-repeat;
 
     }
 
     .ling1{
-        height: 40vh;
+        height: 30vh;
     }
     .ling2{
-        height: 40vh;
+        height: 30vh;
     }
     .ling3{
-        height: 40vh;
+        height: 30vh;
     }
+    .ling4{
+        height: 30vh;
+    }
+    
     .rastreio{
         width: 100%;
         height: 50vh;
@@ -122,10 +128,14 @@
         height: 35vh;
 
     }
+    
 }
 
 
 @media(max-width: 768px){
+    .banner1080{
+        display: none;
+    }
     .banner01{
         width: 100%;
     }
@@ -188,21 +198,38 @@
     }
 }
 
+
+
+
 @media(max-width: 1080px){
     .logovilla{
         height: 4vh;
         margin-left: 2rem;
     }
+    .container{
+        width: 100%;
+    }
+    
     
     
     .cabecalho{
         display: flex;
-        gap: 3rem;
         background-color: #1a0a00;
-        height: 9vh;
+        height: 8vh;
         width: 100%;
         align-items: center;
+        justify-content: none;
+
         
+    }
+    .imgling{
+        margin-left: 4rem;
+    }
+
+    .banner01{
+        display: none;
+        width: 100%;
+        height: 23vh;
     }
     
     .botoes a{
@@ -217,29 +244,35 @@
     
     
     .iniciobutton{
-        font-size: 30px;
+        font-size: 15px;
         margin-left: 1rem;
         margin-right: 1rem;
     }
     
     .sobrebutton{
-        font-size: 30px;
+        font-size: 20px;
         margin-right: 1rem;
     }
     
     .Produtosbutton{
-        font-size: 30px;
+        font-size: 15px;
         margin-right: 1rem;
         
     
     }
     .contatobutton{
-        font-size: 30px;
+        font-size: 15px;
         margin-right: 1rem;
     }
     
     .Buttonface{
         height: 2vh;
+    }
+    .textrastreio{
+        margin-left: 6rem;
+    }
+    .fornecedores{
+        width: 100%;
     }
     
     .tittleVilla{
@@ -264,7 +297,40 @@
         align-items: center;
     }
     
-    .banner01{
-        border-bottom:12px solid #d27339;
+    
+    .fornecedores{
+        width: 100%;
     }
+
+    .fornecedor01{
+        height: 17vh;
+    }
+
+    .fornecedor02{
+        height: 17vh;
+    }
+
+    .fornecedor03{
+        height: 17vh;
+    }
+    .imgrastreio{
+        height:20vh
+    }
+    .rastreio{
+        height: 30vh;
+        width: 100%;
+        align-items: center;
+        
+    }
+    .sustentabilidade{
+        height: 28vh;
+        background-size:120%;
+        width: 100%;
+       
+    }
+
+    .textsustentabilidade{
+        font-size: 19px;
+    }
+    
 }

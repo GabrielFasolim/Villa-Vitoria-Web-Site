@@ -2,6 +2,9 @@
     font-family:Muli-Black ;
     src: url('Muli-Black');
 }
+.banner1080{
+    display: none;
+}
 
 .cabecalho{
     display: flex;
@@ -10,10 +13,22 @@
     height: 9vh;
     min-width: 600px;
     align-items: center;
+    width: 100%;
     
     
 
 }
+.botoes a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+.botoes{
+    background-color: #1a0a00;
+    border: none;
+    margin-right: 3rem;
+}
+
 header a{
     position: relative;
     text-decoration: none;
@@ -68,9 +83,7 @@ header a:hover:after{
     border-bottom:12px solid #d27339;
 }
 
-.botoes{
-    margin-right: 3rem;
-}
+
 .whatsimg{
     
     height: 1vh;
@@ -113,14 +126,6 @@ html{
 
 
 
-.botoes a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-.botoes{
-    background-color: #1a0a00;
-    border: none;
-}
 
 
 .textVilla{
@@ -218,7 +223,7 @@ html{
     font-weight: bolder;
     color: #d27339;
     text-align: right;
-    margin-right: 6rem;
+   
     
     
 
@@ -231,13 +236,18 @@ html{
     font-family: 'Muli',sans-serif;
     text-align: right;
     letter-spacing: 2px;
-    margin-right: 6rem;
+   
 }
 
 .fornecedores{
     background-image: url(./bkg.png);
     
 
+}
+.inforastreio{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4rem;
 }
 
 .fornecedor01{
