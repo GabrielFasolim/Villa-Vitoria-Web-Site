@@ -133,13 +133,18 @@
     }
     .rastreio{
         width: 100%;
+        justify-content: center;
     }
     .tittlerastreabilidade{
-        font-size: 20px;
+        font-size: 30px;
+        margin-right: 2rem;
     }
 
     .textrastreio{
+        margin-top: 0;
         font-size: 15px;
+        letter-spacing: 0;
+        
     }
     .fornecedores{
         width: 100%;
@@ -155,6 +160,30 @@
     .fornecedor03{
         height: 35vh;
 
+    }
+    .ling1{
+        height: 45vh;
+    }
+
+    .ling2{
+        height: 45vh;
+    }
+
+    .ling3{
+        height: 45vh;
+    }
+    .ling4{
+        height: 45vh;
+    }
+    .sustentabilidade{
+        height: 60vh;
+    }
+    .textsustentabilidade{
+        letter-spacing: 0;
+        line-height: 17px;
+    }
+    .tittlesustentabilidade{
+        margin-top: 0rem;
     }
     
 }
@@ -436,6 +465,15 @@
     }
     .buttonwhats{
         height: 2vh;
+    }
+    .Felipe{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .fotosobrenos{
+        display: block;
+        height: 38vh;
     }
     .textrastreio{
         margin-left: 6rem;
