@@ -1,14 +1,20 @@
-@media(max-width: 768px){
-    .banner{
-        background-image: url(./banner1080.png);
-        height: 300px;
+
+
+@media(max-width:1440px){
+    .textVilla{
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        line-height: 15px;
     }
-    .nav-item {
-        font-size: 12px;
-        margin-right: 2rem;
+    .textsustentabilidade{
+        font-size: 15px;
+        line-height: 16px;
     }
-    .icones img {
-        width: 20px;
+    .tittlesustentabilidade{
+        font-size:60px;
+    }
+    .sustentabilidade{
+        height: 70vh;
     }
 }
 
@@ -190,49 +196,82 @@
 
 
 @media(max-width: 768px){
-    
-    .banner01{
-        width: 100%;
+    .banner{
+        background-image: url(./banner1080.png);
+        height: 400px;
     }
+    .nav-item {
+        font-size: 12px;
+        margin-right: 2rem;
+    }
+    .icones img {
+        width: 20px;
+    }
+    .tittleVilla{
+        font-size: 40px;
+    }
+    
     .textVilla{
-        font-size: 10px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .Felipe{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .fotosobrenos{
+        display: block;
+        height: 92vh;
     }
 
     .Produtos{
-        background-size: 100vw;
-        height: 45vh;
+        background-size: cover;
+        height: 70vh;
     }
     .tittleprodutos{
         font-size: 30px;
     }
     .ling1{
-        height: 30vh;
+        height: 35vh;
     }
 
     .ling2{
-        height: 30vh;
+        height: 35vh;
 
     }
     .ling3{
-        height: 30vh;
+        height: 35vh;
+    }
+    .ling4{
+        height: 35vh;
     }
     .sustentabilidade{
         width:100%;
     }
     .tittlerastreabilidade{
-        font-size: 20px;
+        font-size: 30px;
+       
     }
    
     .rastreio{
-        height: 41vh;
+        height: 60vh;
               
     }
     .textrastreio{
-        font-size: 10px;
+        font-size: 15px;
         margin-right: 3rem;
+        line-height: 20px;
+        text-align:start;
+    }
+    .cestafull{
+        display: block;
+        height: 50vh;
     }
 
     .imgrastreio{
+        display: none;
         height: 30vh;
     }
 
@@ -249,6 +288,23 @@
     .fornecedor03{
         height: 25vh;
 
+    }
+    .sustentabilidade{
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .tittlesustentabilidade{
+        padding-top: 2rem;
+        font-size: 37px;
+    }
+    .textsustentabilidade{
+        margin-top: 1rem;
+        font-size: 12px;
+        padding-bottom: 2rem;
+    }
+    .textfoot{
+        font-size: 15px;
     }
 }
 
@@ -391,8 +447,250 @@
     }
 }
 */
+@media(max-width: 425px){
+    .banner{
+        background-size: cover;
+        width: 90vh;
+    }
 
+
+
+
+    .Produtos{
+        background-size: cover;
+        width: 90vh;
+    }
+}
+ 
+ 
+ 
+        
 @media(max-width: 400px){
+    
+    .cabecalho{
+     width: 10vh;
+     height: auto;
+     justify-content: flex-start;
+     min-width: 100%;
+     flex-direction: column;
+    }
+ 
+    .ButtonImg img {
+     height: auto;
+     margin: 10px 5px 20px 5px;
+    }
+ 
+    .head{
+     flex-direction: column;
+    }
+ 
+    .logovilla{
+     margin-top: 20px;
+     padding-left: 0;
+     margin-right: 0;
+    }
+ 
+    .nav-item {
+     margin-right: 0;
+    }
+ 
+    .iniciobutton{
+     font-size: 10px;
+     margin-right: 1rem;
+     padding-right: 0;
+     margin-left: 0.3rem;
+ 
+     }
+     .sobrebutton{
+         font-size: 10px;
+         padding-right: 0;
+         margin-right: 1rem;
+     }    
+     
+     .Produtosbutton{
+         font-size: 10px;
+         padding-right: 0;
+         margin-right: 1rem;
+     
+     }
+     .contatobutton{
+         font-size: 10px;
+         padding-right: 0rem;
+         margin-right: 1rem;
+     }
+     .icones{
+         display: flex;
+     
+     }
+     
+     
+     .Buttonface{
+         height: 0.7vh;
+     }
+     .Buttoninsta{
+         height: 1vh;
+     }
+     .buttoninsta{
+         height: 2vh;
+     }
+     .buttonface{
+         height: 2vh;
+     }
+     .buttonwhats{
+         height: 2vh;
+     }
+     .Felipe{
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+     }
+     .fotosobrenos{
+         display: block;
+         width: 100%;
+         height: 45vh;
+     }
+ 
+     
+     .banner01{
+         height: 27vh;
+     }
+     /*.textosVilla{
+         
+     }
+     */
+     .textVilla{
+         margin-left: 0;
+         line-height: 20px;
+         margin-right: 3rem;
+         letter-spacing: 0.5px;
+         font-size: 15px;
+     }
+     .tittleVilla{
+         margin-left: 0;
+     }
+ 
+     .Produtos{
+         background-size: cover;
+         height: 50vh;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+ 
+     .ling1{
+         height: 18vh;
+         margin-right: 2rem;
+        
+     }
+     .ling2{
+         height: 18vh;
+         margin-left: 6rem;
+     }
+     .ling3{
+         height: 18vh;
+     }
+     .ling4{
+         height: 18vh;
+         margin-left: 6rem;
+     }
+ 
+     .tittleprodutos{
+         font-size: 20px;
+         padding-top: 1rem;
+         margin-bottom: 0.5rem;
+     }
+ 
+ 
+     .rastreio{
+         width: 100%;
+         height: 40vh;
+         margin-right: 1rem;
+ 
+     }
+     
+     .textrastreio{
+         font-size: 10px;
+         text-align:right;
+         width: 100%;
+         line-height: 10px;
+         
+         
+     }
+     .tittlerastreabilidade{
+         font-size: 15px;
+         width: 100%;
+         margin-right: 0;
+         padding-right: 0;
+         margin-left: 0;
+         padding-left: 0;
+         padding-top: 2rem;
+        
+         
+     }
+     .cestafull{
+         display: block;
+         height: 30vh;
+         margin-left: 3rem;
+     }
+     
+     .inforastreio{
+        width: 100%;
+         margin-right: 4rem;
+         margin-left: 0;
+         padding-left: 0;
+         padding-right: 0;
+     }
+ 
+     .iconesrastreio{
+         margin-bottom: 0;
+         margin-top: 2rem;
+         padding-top: 3.5rem;
+     }
+     .fornecedores{
+         height: 30vh;
+     }
+     .fornecedor01{
+         height: 15vh;
+     }
+     .fornecedor02{
+         height: 15vh;
+     }
+     .fornecedor03{
+         height: 15vh;
+     }
+     .imgrastreio{
+         display: none;
+     }
+     
+     .sustentabilidade{
+         display: none;
+     }
+     .mapbox{
+         display: none;
+     }
+ 
+     .foot{
+         display: none;
+     }
+ 
+ }
+ 
+@media(max-width:390px){
+    .fotosobrenos{
+        height: 40vh;
+    }
+    .cestafull{
+        height: 25vh;
+    }
+    .textrastreio{
+        font-size: 10px;
+    }
+}
+ 
+ 
+        
+
+@media(max-width: 375px){
     
    .cabecalho{
     width: 10vh;
@@ -473,10 +771,8 @@
     }
     .fotosobrenos{
         display: block;
-        height: 38vh;
-    }
-    .textrastreio{
-        margin-left: 6rem;
+        width: 100%;
+        height: 45vh;
     }
 
     
@@ -489,33 +785,102 @@
     */
     .textVilla{
         margin-left: 0;
-        line-height: 15px;
+        line-height: 20px;
         margin-right: 3rem;
         letter-spacing: 0.5px;
+        font-size: 15px;
     }
     .tittleVilla{
         margin-left: 0;
     }
 
     .Produtos{
-    display: none;
+        background-size: cover;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    
-    
+    .ling1{
+        height: 17vh;
+        margin-right: 2rem;
+    }
+    .ling2{
+        height: 17vh;
+        margin-left: 5rem;
+    }
+    .ling3{
+        height: 17vh;
+    }
+    .ling4{
+        height: 17vh;
+        margin-left: 5rem;
+    }
+
+    .tittleprodutos{
+        font-size: 20px;
+        padding-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+
     .rastreio{
-        display: none;
         width: 100%;
-        height: 50vh;
+        height: 30vh;
+        margin-right: 0rem;
+
     }
     .textrastreio{
-        margin-right: 2rem;
-        font-size: 12px;
+        font-size: 7px;
+        text-align:right;
+        width: 100%;
+        line-height: 10px;
+        
+        
     }
     .tittlerastreabilidade{
-        font-size: 45px;
+        font-size: 15px;
+        width: 100%;
+        margin-right: 0;
+        padding-right: 0;
+        margin-left: 0;
+        padding-left: 0;
+        padding-top: 2rem;
+       
+        
+    }
+    .cestafull{
+        display: block;
+        height: 30vh;
+        margin-left: 3rem;
+    }
+    
+    .inforastreio{
+        margin-right: 4rem;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .iconesrastreio{
+        margin-bottom: 0;
+        margin-top: 2rem;
+        padding-top: 3.5rem;
     }
     .fornecedores{
+        height: 30vh;
+    }
+    .fornecedor01{
+        height: 15vh;
+    }
+    .fornecedor02{
+        height: 15vh;
+    }
+    .fornecedor03{
+        height: 15vh;
+    }
+    .imgrastreio{
         display: none;
     }
     
