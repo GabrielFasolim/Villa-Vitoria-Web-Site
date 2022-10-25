@@ -448,19 +448,53 @@
 }
 */
 @media(max-width: 425px){
+    .cabecalho{
+        width: auto;
+    }
     .banner{
         background-size: cover;
-        width: 90vh;
+        width: 89.6vh;
     }
-
-
-
+    .tittleVilla{
+        width: 100%;
+    }
+    .textVilla{
+        font-size: 15px;
+    }
+    .fotosobrenos{
+        height: 50vh;
+        width: 100%;
+        
+    }
+    .Felipe{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 
     .Produtos{
         background-size: cover;
-        width: 90vh;
+        width: 100%;
+
+    }
+    .tittleprodutos{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .ling1{
+        height: 30vh;
+    }
+    .ling2{
+        height: 30vh;
+    }
+    .ling3{
+        height: 30vh;
+    }
+    .ling4{
+        height: 30vh;
     }
 }
+
  
  
  
@@ -776,8 +810,8 @@
     }
 
     
-    .banner01{
-        height: 27vh;
+    .banner{
+        width: auto;
     }
     /*.textosVilla{
         
@@ -791,31 +825,34 @@
         font-size: 15px;
     }
     .tittleVilla{
+        margin-top: 1rem;
         margin-left: 0;
     }
 
     .Produtos{
+        
         background-size: cover;
         height: 50vh;
+        width: auto;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     .ling1{
-        height: 17vh;
-        margin-right: 2rem;
+        height: 19vh;
+        margin-right: 0rem;
     }
     .ling2{
-        height: 17vh;
-        margin-left: 5rem;
+        height: 19vh;
+        margin-left: 6rem;
     }
     .ling3{
-        height: 17vh;
+        height: 19vh;
     }
     .ling4{
-        height: 17vh;
-        margin-left: 5rem;
+        height: 19vh;
+        
     }
 
     .tittleprodutos{
@@ -823,6 +860,7 @@
         padding-top: 1rem;
         margin-bottom: 0.5rem;
     }
+    
 
 
     .rastreio{
@@ -832,7 +870,7 @@
 
     }
     .textrastreio{
-        font-size: 7px;
+        font-size: 9px;
         text-align:right;
         width: 100%;
         line-height: 10px;
@@ -885,18 +923,41 @@
     }
     
     .sustentabilidade{
-        display: none;
+        display: block;
+        background-size: cover;
+        width: auto;
+        background-position: right 26% bottom 20%;
+        height: 60vh;
+        
+    }
+    .tittlesustentabilidade{
+        font-size: 30px;
+        margin-left: 1rem;
+    }
+    .textsustentabilidade{
+        font-size: 9px;
+        margin-left: 1rem;
     }
     .mapbox{
-        display: none;
+        display:flex;
     }
 
     .foot{
-        display: none;
+        display: flex;
+       
+    }
+    .textfoot{
+        color: aliceblue;
+        font-size: 13px;
     }
 
 }
 
+@media(max-width: 320px){
+    .cabecalho{
+        width: 100%;
+    }
+}
 
 
        
