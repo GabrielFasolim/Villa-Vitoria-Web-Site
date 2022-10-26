@@ -635,9 +635,9 @@
          flex-direction: column;
      }
      .fotosobrenos{
-         display: block;
+         
          width: 89.9vh;
-         height: 60vh;
+         height: 70vh;
      }
  
      
@@ -699,7 +699,7 @@
      }
      
      .textrastreio{
-         font-size: 15px;
+         font-size: 12px;
          text-align:right;
          width: 100%;
          line-height: 15px;
