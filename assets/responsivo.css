@@ -453,9 +453,7 @@
         width: auto;
     }
 
-    .logovilla{
-        margin-right: 1rem;
-    }
+   
     .banner{
         background-size: cover;
         width: 89.6vh;
@@ -533,7 +531,7 @@
         font-size: 35px;
     }
     .cestafull{
-        margin-left: 5rem;
+        padding-left: 3rem;
         height: 40vh;
     }
     .fornecedores{
@@ -548,6 +546,65 @@
     }
     .foot{
         width: 89.9vh;
+    }
+}
+
+
+
+@media(max-width: 412px){
+    .cabecalho{
+        display: flex;
+        height: auto;
+        justify-content: flex-start;
+        width: 100vw;
+        flex-direction: column;
+       }
+    .logovilla{
+        
+    }
+
+    .banner{
+        width: 100vw;
+    }
+
+    .Felipe{
+        width: 100vw;
+    }
+    .tittleVilla{
+        width: 100vw;
+    }
+    .textosvilla{
+        width: 410px;
+    }
+    .textVilla{
+        margin-left: 2rem;
+        font-size: 10px;
+        width: 100vw;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .fotosobrenos{
+        height: 30vh;
+        width: 50vw;
+    }
+
+    .Produtos{
+        width: 100vw;
+    }
+    .rastreio{
+        width: 100vw;
+    }
+    .fornecedores{
+        width: 100vw;
+    }
+    .sustentabilidade{
+        width: 100vw;
+    }
+    .mapa{
+        width: 100vw;
+    }
+    .foot{
+        width: 100vw;
     }
 }
 
@@ -612,6 +669,9 @@
          display: flex;
      
      }
+     .banner{
+        width: 600px;
+     }
      
      
      .Buttonface{
@@ -635,7 +695,7 @@
          flex-direction: column;
      }
      .fotosobrenos{
-         
+        display: none;
          width: 89.9vh;
          height: 70vh;
      }
@@ -665,22 +725,23 @@
          display: flex;
          align-items: center;
          justify-content: center;
+         width: 600px;
      }
  
      .ling1{
-         height: 25vh;
+         height: 23vh;
          
         
      }
      .ling2{
-         height: 25vh;
+         height: 23vh;
          
      }
      .ling3{
-         height: 25vh;
+         height: 23vh;
      }
      .ling4{
-         height: 25vh;
+         height: 23vh;
          
      }
  
@@ -699,7 +760,7 @@
      }
      
      .textrastreio{
-         font-size: 12px;
+         font-size: 10px;
          text-align:right;
          width: 100%;
          line-height: 15px;
@@ -724,8 +785,8 @@
      }
      
      .inforastreio{
-        width: 100%;
-         margin-right: 4rem;
+        width: 50%;
+         margin-right: 3rem;
          margin-left: 0;
          padding-left: 0;
          padding-right: 0;
@@ -737,7 +798,8 @@
          padding-top: 3.5rem;
      }
      .fornecedores{
-         height: 30vh;
+        height: 30vh;
+        width: 600px;
      }
      .fornecedor01{
          height: 15vh;
@@ -751,6 +813,17 @@
      .imgrastreio{
          display: none;
      }
+
+    .sustentabilidade{
+        width: 600px;
+    }
+
+    .mapa{
+        width: 600px;
+    }
+    .foot{
+        width: 600px;
+    }
      
      
      
@@ -759,7 +832,7 @@
  
 @media(max-width:390px){
     .fotosobrenos{
-        height: 40vh;
+        height: 600px;
     }
     .cestafull{
         height: 25vh;
@@ -767,6 +840,7 @@
     .textrastreio{
         font-size: 10px;
     }
+    
 }
  
  
