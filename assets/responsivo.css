@@ -1,4 +1,14 @@
 
+@media(max-width:1920px){
+    .textsustentabilidade{
+        letter-spacing: 0px;
+        font-size: 20px;
+    }
+    .sustentabilidade{
+        height: 80vh;
+    }
+}
+
 
 @media(max-width:1440px){
     .textVilla{
@@ -9,6 +19,18 @@
     .textsustentabilidade{
         font-size: 15px;
         line-height: 16px;
+    }
+    .ling1{
+        height: 50vh;
+    }
+    .ling2{
+        height: 50vh;
+    }
+    .ling3{
+        height: 50vh;
+    }
+    .ling4{
+        height: 50vh;
     }
     .tittlesustentabilidade{
         font-size:60px;
@@ -449,20 +471,37 @@
 */
 
 @media(max-width: 425px){
-    .cabecalho{
-        width: auto;
+    .cabecalho{ 
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+
+
+    }
+    .container{
+        width: 100%;
+    }
+    .logovilla{
+        margin-left: 0;
+        padding-left: 0;
+        margin-right: 2rem;
     }
 
    
+    .nav-item{
+        margin-right: 1rem;
+    }
+   
     .banner{
         background-size: cover;
-        width: 89.6vh;
+        width: 599px;
     }
     .tittleVilla{
-        width: 100%;
+        width: 70%;
     }
     .textVilla{
-        font-size: 15px;
+        font-size: 12px;
     }
     .sobrevilla{
         width: 520px;
@@ -470,9 +509,10 @@
     
     
     .fotosobrenos{
-        height: 70vh;
-        width: 89.9vh;
-        margin-left: 5rem;
+        height: 75vh;
+        width: auto;
+
+        
         
     }
     .Felipe{
@@ -484,13 +524,14 @@
 
     .Produtos{
         background-size: cover;
-        width: 89.9vh;
+        width: 599px;
         display: flex;
-        height: 50vh;
+        height:70vh;
         justify-content: center;
         align-items: center;
 
     }
+
     .tittleprodutos{
         margin-bottom: 0;
         margin-top: 0;
@@ -498,21 +539,22 @@
     .imgling{
         display: flex;
         justify-content: center;
+        flex-direction: column;
         
 
     }
     .ling1{
-        height: 27vh;
+        height: 30vh;
     }
     .ling2{
-        height: 27vh;
+        height: 30vh;
        
     }
     .ling3{
-        height: 27vh;
+        height: 30vh;
     }
     .ling4{
-        height: 27vh;
+        height: 30vh;
         
     }
     .inforastreio{
@@ -535,17 +577,20 @@
         height: 40vh;
     }
     .fornecedores{
-        width: 89.9vh;
+        width: 599px;
+    }
+    .secforn{
+        width: 599px;
     }
 
     .sustentabilidade{
-        width: 89.9vh;
+        width: 599px;
     }
     .mapa{
-        width: 89.9vh;
+        width: 599px;
     }
     .foot{
-        width: 89.9vh;
+        width: 599px;
     }
 }
 
@@ -555,28 +600,41 @@
     .cabecalho{
         display: flex;
         height: auto;
-        justify-content: flex-start;
-        width: 100vw;
-        flex-direction: column;
+        width: 400px;
+        
        }
     .logovilla{
-        
+        height: 5vh;
+        margin-left: 0;
     }
 
     .banner{
-        width: 100vw;
+        width: 100%;
+    }
+    .sobrevilla{
+        width: 100%;
+    }
+    .secforn{
+        width: 400px;
     }
 
     .Felipe{
-        width: 100vw;
+        width: 100%;
     }
     .tittleVilla{
-        width: 100vw;
+        margin-left: 0;
+        width: 100%;
+
     }
     .textosvilla{
-        width: 410px;
+        margin-left: 1rem;
+        
+        width: 30%;
+        font-size: 14px;
     }
     .textVilla{
+        letter-spacing: 0px;
+        height: 60vh;
         margin-left: 2rem;
         font-size: 10px;
         width: 100vw;
@@ -584,27 +642,29 @@
         padding-left: 0;
     }
     .fotosobrenos{
-        height: 30vh;
-        width: 50vw;
+        height: 50vh;
+        
     }
+    
 
     .Produtos{
-        width: 100vw;
+        
+        width: 100%;
     }
     .rastreio{
-        width: 100vw;
+        width: 100%;
     }
     .fornecedores{
-        width: 100vw;
+        width: 100%;
     }
     .sustentabilidade{
-        width: 100vw;
+        width: 100%;
     }
     .mapa{
-        width: 100vw;
+        width: 100%;
     }
     .foot{
-        width: 100vw;
+        width: 100%;
     }
 }
 
@@ -618,8 +678,9 @@
      
      height: auto;
      justify-content: flex-start;
-     width: 100%;
+     width:auto;
      flex-direction: column;
+     
     }
  
     .ButtonImg img {
@@ -689,14 +750,19 @@
      .buttonwhats{
          height: 2vh;
      }
+
+     .sobrevilla{
+        height: 100vh;
+     }
      .Felipe{
          display: flex;
          justify-content: center;
          flex-direction: column;
+         height: 100vh;
      }
      .fotosobrenos{
-        display: none;
-         width: 89.9vh;
+       
+         width: 600px;
          height: 70vh;
      }
  
@@ -710,40 +776,51 @@
      */
      .textVilla{
          margin-left: 0;
-         line-height: 20px;
-         margin-right: 3rem;
+         line-height: 15px;
+         margin-right: 0rem;
          letter-spacing: 0.5px;
          font-size: 15px;
      }
      .tittleVilla{
          margin-left: 0;
      }
+     .textosvilla{
+        margin-left: 0rem;
+     }
+     
  
      .Produtos{
          background-size: cover;
-         height: 50vh;
+         height: 65vh;
          display: flex;
          align-items: center;
          justify-content: center;
          width: 600px;
+         
      }
  
      .ling1{
-         height: 23vh;
+         height: 27vh;
          
         
      }
      .ling2{
-         height: 23vh;
+         height: 27vh;
          
      }
      .ling3{
-         height: 23vh;
+         height: 27vh;
      }
      .ling4{
-         height: 23vh;
+         height: 27vh;
          
      }
+     .imgling{
+        display: flex;
+      
+        flex-direction: column;
+     }
+     
  
      .tittleprodutos{
          font-size: 20px;
@@ -753,7 +830,7 @@
  
  
      .rastreio{
-         width: 89.9vh;
+         width: 600px;
          height: 40vh;
          margin-right: 1rem;
  
@@ -786,7 +863,7 @@
      
      .inforastreio{
         width: 50%;
-         margin-right: 3rem;
+         margin-right: 1rem;
          margin-left: 0;
          padding-left: 0;
          padding-right: 0;
@@ -813,6 +890,9 @@
      .imgrastreio{
          display: none;
      }
+     .secforn{
+        width: 100%;
+    }
 
     .sustentabilidade{
         width: 600px;
@@ -849,11 +929,12 @@
 @media(max-width: 375px){
     
    .cabecalho{
-    width: 10vh;
+    
     height: auto;
     justify-content: flex-start;
     min-width: 100%;
     flex-direction: column;
+    width: 100%;
    }
 
    .ButtonImg img {
@@ -920,22 +1001,28 @@
     .buttonwhats{
         height: 2vh;
     }
-    .sobrevilla{
-        width: 365px;
-    }
+    
     .Felipe{
+        width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
+        height: 125vh;
     }
     .fotosobrenos{ 
         height: 45vh;
-       margin-left: 0rem;
+        width: 100%;
+        
+    }
+    .sobrevilla{
+        height: 120vh;
+        width: 100%;        
     }
 
     
     .banner{
-        width: auto;
+        
+        width: 100%;
     }
     /*.textosVilla{
         
@@ -943,43 +1030,53 @@
     */
     .textVilla{
         margin-left: 0;
-        line-height: 15px;
-        margin-right: 3rem;
+        line-height: 10px;
+        width: 60%;
         letter-spacing: 0.5px;
         font-size: 10px;
-        width: 50%;
+        
     }
 
 
     .tittleVilla{
+        width: auto;
         margin-top: 1rem;
         margin-left: 0;
+        margin-right: 0rem;
     }
 
     .Produtos{
         
         background-size: cover;
-        height: 40vh;
-        width: auto;
+        height: 60vh;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+        
+        
+    }
+    .textosvilla{
+        height: 300vh;
     }
 
     .ling1{
-        height: 17vh;
-        margin-right: 0rem;
+        height: 25vh;
+        margin-left:0rem;
     }
     .ling2{
-        height: 17vh;
+        height: 25vh;
         margin-left: 0rem;
     }
     .ling3{
-        height: 17vh;
+        height: 25vh;
+        margin-left: 0rem;
+        padding-left: 0rem;
+    
     }
     .ling4{
-        height: 17vh;
-        margin-left: 0rem;
+        height: 25vh;
+        
         
     }
 
@@ -988,20 +1085,26 @@
         padding-top: 1rem;
         margin-bottom: 0.5rem;
     }
+    .secrastreio{
+        width: 70%;
+    }
     
 
 
     .rastreio{
+        
         width: 100%;
-        height: 30vh;
+        height: 40vh;
         margin-right: 0rem;
+        
 
     }
     .textrastreio{
         font-size: 9px;
-        text-align:right;
+        text-align:center;
         width: 100%;
         line-height: 10px;
+        
         
         
     }
@@ -1012,21 +1115,25 @@
         padding-right: 0;
         margin-left: 0;
         padding-left: 0;
-        padding-top: 2rem;
+        margin-top: 0rem;
        
         
     }
     .cestafull{
         display: block;
         height: 30vh;
-        margin-left: 3rem;
+        margin-left: 2rem;
+        margin-top: 3rem;
     }
     
     .inforastreio{
-        margin-right: 4rem;
+        display: flex;
+        justify-content: center;
+        margin-right: 1rem;
         margin-left: 0;
         padding-left: 0;
         padding-right: 0;
+        padding-top: 0rem;
     }
 
     .iconesrastreio{
@@ -1035,8 +1142,9 @@
         padding-top: 3.5rem;
     }
     .fornecedores{
+        display: none;
         height: 30vh;
-        width: 375px;
+        width: 100%;
     }
     .fornecedor01{
         height: 15vh;
@@ -1054,14 +1162,17 @@
     .sustentabilidade{
         display: block;
         background-size: cover;
-        width: 375px;
+        width: 100%;
         background-position: right 26% bottom 20%;
         height: 60vh;
+
         
     }
     .tittlesustentabilidade{
         font-size: 30px;
         margin-left: 1rem;
+        margin-top: 0rem;
+        padding-top: 0rem;
     }
     .textsustentabilidade{
         font-size: 9px;
@@ -1070,10 +1181,17 @@
     .mapbox{
         display:flex;
     }
+    .mapa{
+        
+        width: 100%;
+    }
 
     .foot{
+    
         display: flex;
-        width: 375px;
+        width: 100%;
+    
+        
        
     }
     .textfoot{
@@ -1085,7 +1203,17 @@
 
 @media(max-width: 320px){
     .cabecalho{
-        width: 320px;
+        width: 100%;
+    }
+    .banner{
+        width: 100vw;
+    }
+    .sobrevilla{
+        height: 90vh;
+    }
+    .tittleVilla{
+        width: 100%;
+        font-size: 30px;
     }
 }
 

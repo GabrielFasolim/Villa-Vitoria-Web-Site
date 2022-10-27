@@ -71,7 +71,7 @@ header a:hover:after{
 }
 
 .logovilla{
-    padding-left: 6rem;
+    padding-left: 3rem;
     height: 6vh;
     margin-right: 40px;
     
@@ -217,6 +217,11 @@ html{
     height: 60vh;
 }
 
+.imgling{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .rastreio{
