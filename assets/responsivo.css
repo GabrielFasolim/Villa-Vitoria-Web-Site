@@ -447,7 +447,8 @@
     }
 }
 */
-@media(max-width: 425px){
+/*
+ @media(max-width: 425px){
     .cabecalho{
         width: auto;
     }
@@ -544,6 +545,7 @@
          margin-right: 1rem;
      }    
      
+
      .Produtosbutton{
          font-size: 10px;
          padding-right: 0;
@@ -594,7 +596,8 @@
      /*.textosVilla{
          
      }
-     */
+*/
+/*
      .textVilla{
          margin-left: 0;
          line-height: 20px;
@@ -726,8 +729,8 @@
  
  
         
-
-@media(max-width: 375px){
+*/
+@media(max-width: 600px){
     
    .cabecalho{
     width: 10vh;
