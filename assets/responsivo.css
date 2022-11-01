@@ -469,7 +469,7 @@
     }
 }
 */
-
+/*
 @media(max-width: 425px){
     .cabecalho{ 
         display: flex;
@@ -774,6 +774,7 @@
          
      }
      */
+     /*
      .textVilla{
          margin-left: 0;
          line-height: 15px;
@@ -923,10 +924,9 @@
     
 }
  
- 
-        
+*/
 
-@media(max-width: 375px){
+@media(max-width: 500px){
     
    .cabecalho{
     
@@ -1062,7 +1062,8 @@
 
     .ling1{
         height: 25vh;
-        margin-left:0rem;
+        margin-left:3rem;
+
     }
     .ling2{
         height: 25vh;
@@ -1076,6 +1077,7 @@
     }
     .ling4{
         height: 25vh;
+        margin-left: 3rem;
         
         
     }
