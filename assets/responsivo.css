@@ -20,16 +20,7 @@
         font-size: 15px;
         line-height: 16px;
     }
-    .ling1{
-        height: 50vh;
-    }
-    .ling2{
-        height: 50vh;
-    }
-    .ling3{
-        height: 50vh;
-    }
-    .ling4{
+    .ling{
         height: 50vh;
     }
     .tittlesustentabilidade{
@@ -37,6 +28,13 @@
     }
     .sustentabilidade{
         height: 70vh;
+    }
+    .tittlerastreabilidade{
+        font-size: 40px;
+        margin-right: 3rem;
+    }
+    .textrastreio{
+        font-size: 15px;
     }
 }
 
@@ -83,17 +81,11 @@
 
     }
 
-    .ling1{
+    .ling{
         height: 30vh;
     }
-    .ling2{
-        height: 30vh;
-    }
-    .ling3{
-        height: 30vh;
-    }
-    .ling4{
-        height: 30vh;
+    .ling:hover{
+        height: 35vh;
     }
     
     .rastreio{
@@ -105,7 +97,7 @@
         font-size: 12px;
     }
     .tittlerastreabilidade{
-        font-size: 45px;
+        font-size: 30px;
     }
     .imgrastreio{
         height: 50vh;
@@ -164,7 +156,7 @@
         justify-content: center;
     }
     .tittlerastreabilidade{
-        font-size: 30px;
+        font-size: 20px;
         margin-right: 2rem;
     }
 
@@ -189,20 +181,13 @@
         height: 35vh;
 
     }
-    .ling1{
-        height: 45vh;
+    .ling{
+        height: 30vh;
+    }
+    .ling:hover{
+        height: 35vh;
     }
 
-    .ling2{
-        height: 45vh;
-    }
-
-    .ling3{
-        height: 45vh;
-    }
-    .ling4{
-        height: 45vh;
-    }
     .sustentabilidade{
         height: 60vh;
     }
@@ -255,20 +240,13 @@
     .tittleprodutos{
         font-size: 30px;
     }
-    .ling1{
+    .ling{
         height: 35vh;
+    }
+    .ling:hover{
+        height: 38vh;
     }
 
-    .ling2{
-        height: 35vh;
-
-    }
-    .ling3{
-        height: 35vh;
-    }
-    .ling4{
-        height: 35vh;
-    }
     .sustentabilidade{
         width:100%;
     }

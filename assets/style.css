@@ -200,22 +200,17 @@ html{
     
 }
 
-.ling1{
-    height: 60vh;
+.ling{
+    height: 48vh;
+    border-radius: 7%;
+    margin-right: 2rem;
+}
+.ling:hover{
+    height: 52vh;
+    opacity:0.8;
 }
 
-.ling2{
-    height: 60vh;
-}
 
-
-.ling3{
-    height: 60vh;
-}
-
-.ling4{
-    height: 60vh;
-}
 
 .imgling{
     display: flex;
@@ -257,6 +252,7 @@ html{
     font-weight: bolder;
     color: #d27339;
     text-align: right;
+    margin-right: 2rem;
    
     
     
