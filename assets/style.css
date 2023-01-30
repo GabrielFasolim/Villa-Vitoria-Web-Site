@@ -8,6 +8,7 @@
     height: 70vh;
     background: url(./banner\ 1.png) no-repeat;
     background-size: cover;
+    border-bottom: 7px solid #d27339;
 }
 
 .cabecalho{
@@ -201,12 +202,12 @@ html{
 }
 
 .ling{
-    height: 48vh;
+    height: 46vh;
     border-radius: 7%;
     margin-right: 2rem;
 }
 .ling:hover{
-    height: 52vh;
+    height: 49vh;
     opacity:0.8;
 }
 
